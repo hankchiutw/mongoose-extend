@@ -1,0 +1,18 @@
+{
+  "name": "mongoose-bashschema",
+  "version": "0.0.1",
+  "description": "extended mongoose.Schema with rich functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "baseschema"
+  ],
+  "author": "Hank",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.4.9"
+  }
+}
