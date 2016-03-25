@@ -1,4 +1,4 @@
-# mongoose-baseschema
+# mongoose-extend
 
-Extended mongoose schema class with serveral useful features.
+Extend mongoose class with serveral useful features.
 
