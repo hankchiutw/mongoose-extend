@@ -9,8 +9,10 @@ const userSchema = new mongoose.BaseSchema({
     password: {type: String, select: false}
 });
 
-userSchema.config('queryDecorator', function(q){
-    return q.select('-password');
+userSchema.defineStatics({
+    queryDecorator: function(q){
+        return q.select('-password');
+    }
 });
 
 userSchema.preHook('save', function(){
