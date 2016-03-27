@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.BaseSchema = require('./lib/BaseSchema');
+mongoose.BaseSchema = require('./lib/BaseSchema/');
 
 /**
  * Expose

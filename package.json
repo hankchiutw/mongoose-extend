@@ -1,10 +1,10 @@
 {
-  "name": "mongoose-bashschema",
-  "version": "0.0.1",
-  "description": "extended mongoose.Schema with rich functionalities",
+  "name": "mongoose-extend",
+  "version": "0.1.1",
+  "description": "extend mongoose with rich functionalities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive ./example/*.spec.js"
   },
   "keywords": [
     "mongoose",
@@ -14,5 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^4.4.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "mocha": "^2.4.5"
   }
 }
